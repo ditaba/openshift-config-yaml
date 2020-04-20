@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: simple-webapp-docker-2
+  name: simple-webapp-docker
 spec:
   selector:
-    deploymentconfig: simple-webapp-docker-2
+    deploymentconfig: simple-webapp-docker
   ports:
     - name: 8080-tcp
       port: 8080
